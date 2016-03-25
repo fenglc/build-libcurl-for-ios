@@ -2,7 +2,7 @@
 #!/bin/sh
 
  export OUTDIR=buildlib
- export IPHONEOS_DEPLOYMENT_TARGET="6.0"
+ export IPHONEOS_DEPLOYMENT_TARGET="7.0"
  export CC=`xcrun -find -sdk iphoneos clang`
 
 function build(){
